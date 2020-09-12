@@ -22,10 +22,8 @@ ABP vNext + vue-element-admin
 3. 运行/run/npm-install.bat（安装npm依赖）
 4. 运行/run/run.bat
 
-步骤2、3只需执行一次。你也可以直接使用vs/vscode来运行
+前3步只需执行一次。你也可以直接使用vs/vscode来运行
 
 ----
-
-还有一些细节需要完善。
 
 欢迎关注我的微信公众号：**“小黑在哪里”** 查看abp vnext相关文章。
