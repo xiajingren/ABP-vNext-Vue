@@ -73,9 +73,10 @@ const actions = {
             reject("Verification failed, please Login again.");
           }
 
-          const { name } = response;
+          //const { name } = response;  // modify name to userName;there is bug when the name is null(name can be null when create user)
+          const { userName } = response;
 
-          commit("SET_NAME", name);
+          commit("SET_NAME", userName);
           commit(
             "SET_AVATAR",
             "https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif"
